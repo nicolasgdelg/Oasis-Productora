@@ -15,6 +15,7 @@
 <body>
 <!--- Header estático--->
 <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <!---se cambia por imagen
     <a href="./../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -22,7 +23,10 @@
         </svg>
         <span class="fs-4">Oasis Productora</span>
     </a>
-
+    --->
+    <a href="./../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img class="foto" src="./../image/logo.jpg" alt="Logo de la página">
+    </a>
     <ul class="nav nav-pills">
         <li class="nav-item"><a href="./../index.html" class="nav-link">Inicio</a></li>
         <li class="nav-item"><a href="nosotros.html" class="nav-link active" aria-current="page">Nosotros</a></li>
@@ -33,15 +37,15 @@
 </header>
 <!---Contenido Hero--->
 <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="./../image/logo.jpg" alt="Logo de Oasis Productora" width="198px" height="67px">
+    <img class="d-block mx-auto mb-4" src="./../image/prueba-gif.gif" alt="Logo de Oasis Productora" width="768px">
     <h1 class="display-5 fw-bold">¡Hola! Somos Oasis Productora</h1>
     <div class="col-lg-6 mx-auto">
         <p class="lead mb-4 lh-1">Nos gusta el café, viajar, conocer, crear, renovarnos, no quedarnos atras.</p>
         <p class="lead mb-4 lh-1">Amantes de los gatos y la naturaleza</p>
         <p class="lead mb-4 fw-bold lh-1">Creamos marcas</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Trabaja con Nosotros</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Accedé a nuesto Blog</button>
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="https://www.instagram.com/canterosj.cruz/ ">Trabaja con Nosotros</a></button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="#footer">Accedé a nuesto Blog</a></button>
         </div>
     </div>
 </div>
@@ -71,7 +75,7 @@
     </div>
 </div>
 <!--- Footer--->
-<div class="container">
+<div id="footer" class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
